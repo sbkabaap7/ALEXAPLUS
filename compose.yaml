@@ -1,0 +1,11 @@
+services:
+  guestguard:
+    build: .
+    ports: ["127.0.0.1:8000:8000"]
+    volumes:
+      - guestguard-data:/app/data
+      - guestguard-models:/app/models
+    restart: unless-stopped
+volumes:
+  guestguard-data:
+  guestguard-models:
