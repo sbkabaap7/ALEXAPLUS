@@ -1,0 +1,19 @@
+# Exact dependency resolution (including Windows-only pywin32) is in requirements.lock.
+mcp==1.26.0
+fastapi==0.143.2
+uvicorn==0.54.0
+httpx==0.28.1
+numpy==2.5.4
+scipy==1.18.1
+soundfile==0.14.0
+cryptography==50.0.2
+argon2-cffi==25.1.0
+python-multipart==0.0.32
+pydantic-settings==2.16.0
+onnxruntime==1.31.0
+huggingface-hub==2.2.0
+faster-whisper==1.2.1
+kaldi-native-fbank==1.22.3
+webrtcvad-wheels==2.0.14.post1
+pytest==9.1.1
+pytest-asyncio==1.4.0
